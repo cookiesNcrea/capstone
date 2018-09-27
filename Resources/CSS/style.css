@@ -1,0 +1,177 @@
+body{
+/*font-size: 16px;*/
+}
+
+/*Header*/
+
+.header{
+  display: flex;
+  align-items: center;
+  position: fixed;
+  height: 64px;
+  width: 100%;
+  z-index: 1;
+  top: 0;
+  background-color: white;
+  justify-content: space-between;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+  height: 32px;
+  margin-left: 24px;
+}
+
+.nav{
+  margin-right: 24px;
+}
+
+.nav a{
+  padding: 0 8px;
+  text-decoration: none;
+  color: grey;
+}
+
+/*Start Here Section*/
+
+#start{
+  display: flex;
+  margin-top: 64px;
+  background-color: silver;
+  height: 500px;
+}
+
+.banner{
+  display: flex;
+  padding: 32px 24px;
+  width: 60%;
+
+}
+
+.banner img{
+  width:100%
+}
+
+.start-here{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 70%;
+  width: 25%;
+
+}
+
+.start-info{
+  margin-bottom: 20px;
+}
+
+.start-button{
+  text-align: center;
+  background-color: grey;
+  padding: 8px 0;
+  width: 100%;
+}
+
+.start-button a{
+  color: white;
+  text-decoration: none;
+}
+
+/* Main info section, "Labled Practice"*/
+
+#practice{
+  display: flex;
+  height: 500px;
+  padding: 32px 24px;
+}
+
+/* Left Side*/
+
+.practice-left{
+  padding-right:24px;
+  width: 70%;
+
+}
+
+.main-img{
+  width: 100%;
+  padding-bottom: 32px;
+}
+
+.main-img img{
+  width: 100%;
+}
+
+.practice-text{
+  padding-bottom: 32px;
+
+}
+
+.practice-text h2{
+  margin: 0;
+  margin-bottom: 24px;
+}
+
+/* Main info section, "Labled Practice"*/
+/* Right Side*/
+
+.practice-right{
+  border-left: 1px solid silver;
+  width: 40%;
+}
+
+.practice-link{
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid silver;
+
+}
+
+.practice-image{
+  padding: 16px 16px;
+  width: 35%;
+}
+
+.practice-image img{
+  width: 100%;
+
+}
+
+.practice-info{
+  width: 65%;
+}
+
+.practice-info h3{
+  margin: 0 0;
+}
+
+.practice-info p{
+  margin: 8px 0;
+}
+
+.lecture{
+  background-color: silver;
+}
+
+/* Course Selection Section*/
+
+.course-header{
+
+}
+
+#courses{
+
+}
+
+.course{
+  
+}
+
+.course-image{
+
+}
+
+.course-info{
+
+}
